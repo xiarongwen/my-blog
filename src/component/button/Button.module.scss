@@ -1,0 +1,57 @@
+.button {
+  font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    &.primary {
+      background-color: #3e63dd;
+      color: white;
+    }
+  
+    &.remove {
+      background-color: #515c67;
+      color: white;
+    }
+
+  
+    &.small {
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+  
+    &.medium {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    &.large {
+      padding: 15px 30px;
+      font-size: 16px;
+    }
+  
+    &.disabled {
+      background-color: #e9ecef;
+      color: #adb5bd;
+      cursor: not-allowed;
+    }
+
+      
+    &.circle {
+      height: 36px;
+      width: 36px;
+      padding: 0;
+      background-color: #fff;
+      border-radius: 50%;
+      border: 0 solid #e5e7eb;
+      transition: all 0.3s ease;
+      text-align: center;
+      padding: 8px;
+    
+    }
+    &.circle:hover {
+      transform: scale(1.1);
+    }
+  }

@@ -6,11 +6,43 @@
 }
 .name {
     color: transparent;
-
 }
 .title-warp {
     width: 211px;
     background:linear-gradient(120deg, #bd34fe, #41d1ff);
     background-clip:text;
 
+}
+.bottoms {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+}
+.bottoms div {
+    margin-right: 10px;
+}
+.box-wrap {
+    margin-top: 70px;
+}
+.cotentbox {
+    // background-color:#515c67;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: #515c67;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    transition: background-color .25s;
+}
+
+.codes {
+    border-radius: 10px;
 }
